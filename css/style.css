@@ -3,7 +3,7 @@ main {
     margin: 0 auto;
 }
 
-label {
+#one label {
     text-align: left;
     display: block;
 }
@@ -21,8 +21,61 @@ label {
     background-color: rgb(125, 123, 123);
     height: 25px;
 }
+#one textarea{
+    display: block;
+}
+#one input[type="submit"] {
+    background-color: rgb(58, 118, 189);
+    padding: 5px;
+    color:white;
+}
+#two h1 {
+    font-style: italic;
+    border-bottom: 2px solid grey;
+}
+#two label {
+    display: inline-block;
+    width: 150px;
+}
+#name2, #email2, #phone, #regarding{
+    width: 300px;
+    margin-top: 1em;
+}
+#two select {
+    width: 200px;
+    margin-right: 7em;
+}
+#two label[for="message2"] {
 
-#one input[submit] {
-    background-color: blue;
-    
+}
+#two textarea {
+    margin-top: 1em;
+}
+#two input[type="submit"] {
+    margin-left: 10.5em;
+    margin-top: 1em;
+}
+#three fieldset {
+    border: 1px solid pink;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 80, 0.26)
+}
+#three legend {
+    color: rgba(255, 0, 84, 0.65);
+    border: 1px solid rgba(255, 0, 84, 0.65);
+    border-radius: 5px;
+    border-bottom: none;
+    padding: 1em;
+    background-color: rgba(255, 0, 84, 0.4);
+}
+#three input {
+    border: 1px solid rgba(255, 0, 84, 0.4);
+    border-radius: 5px;
+}
+#three label {
+    color: rgba(255, 0, 84, 0.65);
+}
+#three input[type="submit"] {
+    background-color: rgba(255, 0, 84, 0.65);
+    color: rgba(250, 234, 239, 0.26);
 }
