@@ -2,6 +2,9 @@ main {
     width: 600px;
     margin: 0 auto;
 }
+section {
+    margin:20px 0;
+}
 
 #one label {
     text-align: left;
@@ -29,6 +32,9 @@ main {
     padding: 5px;
     color:white;
 }
+
+
+
 #two h1 {
     font-style: italic;
     border-bottom: 2px solid grey;
@@ -55,27 +61,78 @@ main {
     margin-left: 10.5em;
     margin-top: 1em;
 }
+
+
 #three fieldset {
-    border: 1px solid pink;
+    border: 1px solid rgb(254, 185, 195);
     border-radius: 15px;
-    background-color: rgba(255, 0, 80, 0.26)
+    background-color: rgb(254, 185, 195);
 }
 #three legend {
-    color: rgba(255, 0, 84, 0.65);
-    border: 1px solid rgba(255, 0, 84, 0.65);
+    color: rgb(252, 8, 177);
+    border: 1px solid rgb(252, 8, 177);
     border-radius: 5px;
     border-bottom: none;
     padding: 1em;
-    background-color: rgba(255, 0, 84, 0.4);
+    background-color: rgb(254, 185, 195);
+    margin-top: 1em;
 }
 #three input {
-    border: 1px solid rgba(255, 0, 84, 0.4);
+    border: 1px solid rgb(252, 8, 177);
+    background-color: rgb(254, 185, 195);
     border-radius: 5px;
 }
 #three label {
-    color: rgba(255, 0, 84, 0.65);
+    color: rgb(252, 8, 177);
+    display: inline-block;
+    margin:15px;
+    width: 120px;
 }
 #three input[type="submit"] {
-    background-color: rgba(255, 0, 84, 0.65);
-    color: rgba(250, 234, 239, 0.26);
+    background-color: rgb(252, 8, 177);
+    color: rgb(254, 185, 195);
+}
+#three #message3 {
+    border: 1px solid rgb(252, 8, 177);
+    background-color: rgb(254, 185, 195);
+    border-radius: 5px;
+}
+#name3, #email3, #phone3 {
+    width: 280px;
+    height:2em;
+    margin-top: 1em;
+}
+#three select[name="subject"] {
+    width: 285px;
+    border: 1px solid rgb(252, 8, 177);
+    background-color: rgb(254, 185, 195);
+    border-radius: 5px;
+}
+#three input[type="submit"] {
+    margin-left: 10.5em;
+    margin-top: 1em;
+}
+
+
+#four {
+    background-color: rgb(56, 52, 110);
+}
+#four label {
+    color:white;
+}
+#name4, #email4, #subject4, #message4 {
+    background-color: rgb(56, 52, 110);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px dashed rgb(124, 132, 203);
+}
+
+#four input[type="submit"] {
+    color: rgb(124, 132, 203);
+    background-color: rgb(86, 89, 161);
+    border-radius: 5px;
+    border-color: rgb(86, 89, 161);
+    border-style: none;
+    padding: 0.5em;
 }
