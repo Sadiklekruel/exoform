@@ -1,0 +1,28 @@
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    text-align: left;
+    display: block;
+}
+
+#full_name {
+    display: inline-block;
+}
+
+#email1 {
+    width: 480px;
+}
+
+#one select {
+    width: 500px;
+    background-color: rgb(125, 123, 123);
+    height: 25px;
+}
+
+#one input[submit] {
+    background-color: blue;
+    
+}
