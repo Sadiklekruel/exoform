@@ -119,6 +119,7 @@ section {
 }
 #four label {
     color:white;
+    width: 40%;
 }
 #name4, #email4, #subject4, #message4 {
     background-color: rgb(56, 52, 110);
@@ -126,6 +127,8 @@ section {
     border-right: none;
     border-left: none;
     border-bottom: 1px dashed rgb(124, 132, 203);
+    color: rgb(150, 150, 150);
+    margin-left: 22em;
 }
 
 #four input[type="submit"] {
@@ -134,5 +137,38 @@ section {
     border-radius: 5px;
     border-color: rgb(86, 89, 161);
     border-style: none;
+    padding: 0.5em;
+}
+#seven h2{
+    text-align: center;
+    width:60%;
+    color: rgb(179, 175, 175);
+}
+#seven fieldset {
+    border-color: rgb(200, 200, 200);
+    border-radius: 5px;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.5em;
+}
+#seven fieldset legend {
+    color:rgb(200, 200, 200);
+}
+#seven fieldset input {
+    background-color: rgb(200, 200, 200);
+    border: none;
+    margin-top: 1em;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+#seven input[type="submit"]{
+    background-color: rgb(38, 85, 163);
+    border: 2px solid rgb(75, 106, 143);
+    color: white;
+    margin-left: 11em;
     padding: 0.5em;
 }
